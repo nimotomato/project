@@ -6,7 +6,7 @@ This is a game created using the Python module Pygame. It is a canine twist on t
 Your objective is to catch as many bones as possible, avoid hitting yourself, avoid hitting walls and avoid eating too many chocolates.
 
 There are four classes in the game: 
-  The main driver, which handles the bulk of the operations. This is stuff like collisions, updating speed, drawing the graphics, executing the methods in the correct oreder, handling game over etc. 
+  The main driver, which handles the bulk of the operations. This is stuff like collisions, updating speed, drawing the graphics, executing the methods in the correct order, handling game over etc. 
   The "choco", which simply instantiates a chocolate object on a random position and draws it to the screen.
   The "bone", which does the same as choco but with a bone
   And the "dog", which draws the dog. The dog has four different parts, with different orientations that get drawn depending on their orientation. Orientation is determined with a true/false statement for the head, and using vectors for the tail, middle part and curved part. I use vectors because apparently they are easy to add together. Had I remade the project however, I think I just would have used tuples as I had to cast the vector into tuples anyway. 
