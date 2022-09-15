@@ -308,7 +308,7 @@ class DOG:
         self.new_mid = True
     
 #path
-path = "C:\\Users\marti\Desktop\\finalproject\images"
+path = os.getcwd() + "\images"
 
 #colors
 WHITE = (255, 255, 255)
