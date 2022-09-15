@@ -323,6 +323,7 @@ BLOCK_SIZE = 40
 BLOCK_NUMBER = 20
 HEIGHT = BLOCK_SIZE * BLOCK_NUMBER
 WIDTH = BLOCK_SIZE * BLOCK_NUMBER
+pygame.display.set_caption('Space Dog')
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 #level const
